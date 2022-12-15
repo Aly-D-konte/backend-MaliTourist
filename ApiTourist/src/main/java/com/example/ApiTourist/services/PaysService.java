@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface PaysService {
 
-    Pays Ajout(Pays pays);
+    Pays Ajoutpays(Pays pays);
     List<Pays> liste();
     Pays Modifier(Pays pays,Long id_pays);
     String SupprimerbyId(Long id_Pays);
