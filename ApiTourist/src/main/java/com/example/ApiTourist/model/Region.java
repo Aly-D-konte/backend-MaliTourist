@@ -24,6 +24,7 @@ public class Region {
     private String activité;
     private String Superficie;
     private String langue;
+    private String photoregion;
 
     @ManyToOne
     private Pays pays;

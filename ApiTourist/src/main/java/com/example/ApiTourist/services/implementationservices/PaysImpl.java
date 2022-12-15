@@ -13,7 +13,7 @@ public class PaysImpl implements PaysService {
     @Autowired
     PaysRepository paysRepository;
     @Override
-    public Pays Ajout(Pays pays) {
+    public Pays Ajoutpays(Pays pays) {
 
         return this.paysRepository.save(pays);
     }
@@ -27,7 +27,7 @@ public class PaysImpl implements PaysService {
     @Override
     public Pays Modifier(Pays pays,Long id_pays) {
         Pays pays1=this.paysRepository.findById(id_pays).orElseThrow();
-        pays1.setNom_pays(pays.getNom_pays());
+        pays1.setNompays(pays.getNompays());
 
         return paysRepository.save(pays1);
 

@@ -32,7 +32,7 @@ public class SwaggerConfig {
                 .version("1.1.0")
                 .license("Apache 2.0")
                 .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0\"")
-                .contact(new Contact("Api by FC", "https://github.com/FatouDev02", "fatoumatacoulibaly4155@gmail.com"))
+                .contact(new Contact("Api by Aly", "", "alykonte19@gmail.com"))
                 .build();
     }
     //for Swagger api doc generation
